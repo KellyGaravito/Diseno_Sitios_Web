@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'angsana';
+    src: url('../font/angsa-webfont.woff2') format('woff2'),
+         url('../font/angsa-webfont.woff') format('woff'),
+         url('../font/angsa-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
