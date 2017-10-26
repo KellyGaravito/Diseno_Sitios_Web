@@ -7,10 +7,39 @@
     font-style: normal;
 }
 
+
 #contenedor{
 	width: 1000px;
 	height: auto;
 	margin: auto;
 	position: relative;
 	background: #E6E6E6;
+}
+
+nav {
+	width: 995px;
+	height: 70px;
+	background: #FFFFFF;
+	border: solid;
+	border-color: #005883;
+	border-radius: 20px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+ul{
+	margin: auto;
+	padding-top: 5px;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 20px;
+	margin: 5px;
+}
+
+a{
+	text-decoration: none;
+	font-size: 30px;
 }
