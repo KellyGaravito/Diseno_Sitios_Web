@@ -5,5 +5,12 @@
          url('../font/angsa-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
 
+#contenedor{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: #E6E6E6;
 }
