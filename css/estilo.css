@@ -19,9 +19,14 @@ body{
 	background: #B3B3B3;
 }
 
-nav {
+header{
+	width: 1000px;
+	height: 120px;
+}
+
+nav{
 	width: 995px;
-	height: 70px;
+	height: 80px;
 	background: #FFFFFF;
 	border: solid;
 	border-color: #005883;
