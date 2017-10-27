@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'angsana';
-    src: url('../font/angsa-webfont.woff2') format('woff2'),
-         url('../font/angsa-webfont.woff') format('woff'),
-         url('../font/angsa-webfont.ttf') format('truetype');
+    src: url('../fonts/angsa-webfont.woff2') format('woff2'),
+         url('../fonts/angsa-webfont.woff') format('woff'),
+         url('../fonts/angsa-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,27 +35,27 @@ nav{
 	border-color: #005883;
 	border-radius: 15px;
 	margin-top: 20px;
-
-	
 }
 
 ul{
 	margin: auto;
-	padding-top: 4px;
-	
+	padding-top: 2px;
+	font-family: angsana;
+
 }
 
 li{
 	float: left;
 	list-style-type: none;
-	padding: 15px;
-	margin: 4px;
-	
+	padding: 10px;
+	margin: 2px;
+	font-family: angsana;
 }
 
 a{
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 40px;
+	font-family: angsana;
 }
 
 section{
@@ -81,11 +81,12 @@ aside{
 }
 
 footer{
-	clear:both;
 	width: 1000px;
 	height: 120px;
 	background: #000000;
 	float-left;
 	border-radius: 10px;
 	margin-top: 20px;
+	clear:both;
+
 }
