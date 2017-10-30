@@ -17,8 +17,23 @@ body{
 	margin: auto;
 	position: relative;
 	background: #B3B3B3;
+	padding-top: 10px;
 }
-
+#contenedor ul a{
+	color:#6e6e6e;
+	text-decoration: none;
+	font:bold 20px Verdana;
+	padding:12px 50px 12px 20px;
+	background: #fff;
+	border-bottom:9px solid transparent;
+	transition:border-bottom .7s;
+	-webkit-transition:border-bottom .7s;
+	-moz-transition:border-bottom .7s;
+	-o-transition:border-bottom .7s;
+}
+#contenedor ul a:hover{
+	border-bottom: 9px solid #6e6e6e;
+}
 header{
 	width: 1000px;
 	height: 120px;
