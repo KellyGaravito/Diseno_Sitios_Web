@@ -59,9 +59,19 @@ p{
 	font-size: 25px;
 }
 h1{
-	font-family: angsana;
+	background: #005883;
+	font-family: arial;
 	font-size: 35px;
+	color: #FFFFFF;
 	text-align: center;
+}
+h2{
+	background: #005883;
+	font-family: arial;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+
 }
 
 nav li{
