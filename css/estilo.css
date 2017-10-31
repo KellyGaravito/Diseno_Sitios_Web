@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 @font-face {
     font-family: 'angsana';
     src: url('../fonts/angsa-webfont.woff2') format('woff2'),
@@ -13,29 +17,43 @@ body{
 
 #contenedor{
 	width: 1000px;
-	height: auto;
 	margin: auto;
-	position: relative;
-	background: #B3B3B3;
+	margin-top: 20px;
+	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 header{
 	width: 1000px;
 	height: 120px;
-	border-color: #005883;
-	border-radius: 40px;
-	margin-top: 20px;
+	border-radius: 20px;
+	float: left;
+	overflow: hidden;
 }
 
 nav{
 	width: 995px;
-	height: 80px;
-	background: #FFFFFF;
-	border: solid;
-	border-color: #005883;
-	border-radius: 15px;
+	height: 75px;
+	background: #005883;
+	float: left;
+	border-radius: 20px;
 	margin-top: 20px;
 }
+
+nav a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 35px;
+	font-family: angsana;
+	padding: 45px;
+}
+nav a:hover{
+	text-decoration: underline;
+	font color: #B3B3B3;
+	font-size: 25;
+
+}
+
 p{
 	font-family: angsana;
 	font-size: 25px;
@@ -46,27 +64,12 @@ h1{
 	text-align: center;
 }
 
-ul{
-	margin: auto;
-	padding-top: 2px;
-	font-family: angsana;
-
+nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 0px;
 }
 
-li{
-	float: left;
-	list-style-type: none;
-	padding: 10px;
-	margin: 2px;
-	font-family: angsana;
-}
-
-a{
-	text-decoration: none;
-	font-size: 40px;
-	font-family: angsana;
-	padding: 15px;
-}
 
 section{
 	width: 680px;
@@ -97,6 +100,7 @@ footer{
 	float-left;
 	border-radius: 10px;
 	margin: 20px 0 20px 0;
+	overflow: hidden;
 	clear:both;
 
 }
