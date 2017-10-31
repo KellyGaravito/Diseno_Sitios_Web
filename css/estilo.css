@@ -38,6 +38,8 @@ nav{
 	float: left;
 	border-radius: 20px;
 	margin-top: 20px;
+	border: solid;
+	color: #FFFFFF; 
 }
 
 nav a{
