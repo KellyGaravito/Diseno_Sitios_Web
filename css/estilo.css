@@ -94,6 +94,12 @@ section{
 	padding: 10px;
 	
 }
+section iframe{
+	width: 380px;
+	height: 250px;
+	float: left;
+	margin: 10px;
+}
 
 aside{
 	width: 260px;
@@ -104,6 +110,12 @@ aside{
 	margin: 20px 0px 20px 20px;
 	border-radius: 10px;
 	padding: 10px;
+}
+
+aside iframe{
+	width: 190px;
+	height: 105px;
+	margin: 20px 30px 20px 30px;
 }
 
 footer{
