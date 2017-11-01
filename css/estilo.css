@@ -45,9 +45,9 @@ nav{
 nav a{
 	color: #FFFFFF;
 	text-decoration: none;
-	font-size: 35px;
-	font-family: angsana;
-	padding: 45px;
+	font-size: 25px;
+	font-family: arial;
+	padding: 25px;
 }
 nav a:hover{
 	text-decoration: underline;
@@ -57,8 +57,8 @@ nav a:hover{
 }
 
 p{
-	font-family: angsana;
-	font-size: 25px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
 	text-align: justify;
 }
 h1{
@@ -95,10 +95,17 @@ section{
 	
 }
 section iframe{
-	width: 380px;
-	height: 250px;
+	width: 390px;
+	height: 240px;
 	float: left;
 	margin: 10px;
+}
+
+section p{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	text-align: justify;
+	margin-top: 20px;
 }
 
 aside{
