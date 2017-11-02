@@ -45,9 +45,9 @@ nav{
 nav a{
 	color: #FFFFFF;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 22px;
 	font-family: arial;
-	padding: 25px;
+	padding: 35px;
 }
 nav a:hover{
 	text-decoration: underline;
@@ -61,18 +61,30 @@ p{
 	font-size: 18px;
 	text-align: justify;
 }
+
+.cruci{
+	width: 320px;
+	height: 220px;
+	float: left;
+
+}
 h1{
 	background: #005883;
 	font-family: arial;
-	font-size: 35px;
+	font-size: 26px;
 	color: #FFFFFF;
 	text-align: center;
 }
 h2{
 	background: #005883;
 	font-family: arial;
-	font-size: 20px;
+	font-size: 18px;
 	color: #FFFFFF;
+	text-align: center;
+	margin: 10px 0px 15px 0px;
+
+}
+h3{
 	text-align: center;
 
 }
@@ -81,13 +93,14 @@ nav li{
 	list-style: none;
 	display: inline-block;
 	padding: 20px 0px;
+	float: left;
 }
 
 
 section{
 	width: 680px;
 	background: #FFFFFF;
-	height: 580px;
+	height: 650px;
 	float: left;
 	margin: 20px 0px 20px 0px;
 	border-radius: 10px;
@@ -100,18 +113,30 @@ section iframe{
 	float: left;
 	margin: 10px;
 }
+.introduccion{
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+}
 
 section p{
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: justify;
 	margin-top: 20px;
+}
+
+.actividades{
+	font-family: arial;
+	color: #005883;
+	float: left;
 }
 
 aside{
 	width: 260px;
 	background: #FFFFFF;
-	height: 580px;
+	height: 650px;
 	float: left;
 	margin-left: 20px;
 	margin: 20px 0px 20px 20px;
