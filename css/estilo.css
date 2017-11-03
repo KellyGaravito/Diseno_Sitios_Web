@@ -66,6 +66,8 @@ p{
 	width: 320px;
 	height: 220px;
 	float: left;
+	margin: 20px 10px 20px 10px;
+
 }
 
 audio{
@@ -78,7 +80,14 @@ section img {
 	width: 100px;
 	height: 120px;
 	float: left;
-	margin: 20px 20px;
+}
+
+.imagen{
+	width: 320px;
+	height: 220px;
+	float: left;
+	margin: 20px 10px 20px 10px;
+	display: inline-block;
 }
 
 h1{
