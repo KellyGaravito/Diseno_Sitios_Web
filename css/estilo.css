@@ -144,6 +144,14 @@ section a{
 	color: #005883;
 	font-weight: bold;
 }
+
+section p img{
+	width: 80px;
+	height: 100px;
+	float: left;
+	margin: 0px 50px 0px 0px;
+
+}
 .actividades{
 	font-family: arial;
 	color: #005883;
